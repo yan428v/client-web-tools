@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",                           // каталог куда собираем. тут не важен потому что тут вебпак.
+    "noImplicitAny": true,                         // подсвечивает использование неявного типа any в коде.
+    "module": "es6",                               // формат модулей для генерации кода (ES6).
+    "target": "es5",                               // версия ECMAScript, для которой TypeScript будет компилировать код.
+    "jsx": "react",                                // поддержка JSX в стиле React.
+    "allowJs": true,                               // разрешает компиляцию .js файлов вместе с .ts.
+    "moduleResolution": "node",                    // использует алгоритм Node.js для разрешения модулей, подходящий для работы с npm пакетами.
+    "allowSyntheticDefaultImports": true,          // разрешает default imports из модулей без явного default export.
+    "esModuleInterop": true                        // позволяет импортировать CommonJS модули в соответствии со стандартом ES6.
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  }
+}
