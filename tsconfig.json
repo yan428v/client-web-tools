@@ -7,7 +7,7 @@
     "jsx": "react",                                // поддержка JSX в стиле React.
     "allowJs": true,                               // разрешает компиляцию .js файлов вместе с .ts.
     "moduleResolution": "node",                    // использует алгоритм Node.js для разрешения модулей, подходящий для работы с npm пакетами.
-    "baseUrl": ".",                                // для абсолютного импорта
+//    "baseUrl": ".",                                // для абсолютного импорта
     "allowSyntheticDefaultImports": true,          // разрешает default imports из модулей без явного default export.
     "esModuleInterop": true                        // позволяет импортировать CommonJS модули в соответствии со стандартом ES6.
   },
