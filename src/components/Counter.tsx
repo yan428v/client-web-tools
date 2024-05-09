@@ -1,8 +1,8 @@
 import React from 'react';
-import "./Counter.scss"
+import classes from "./Counter.module.scss"
 const Counter = () => {
     return (
-        <div>
+        <div className={classes.btn}>
             счетчик!
             <button>fsdfdasfs</button>
         </div>
