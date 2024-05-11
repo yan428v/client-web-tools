@@ -4,14 +4,15 @@ import {Routes, Route, Link} from "react-router-dom";
 import {MainPageAsync} from "./pages/MainPage/MainPageAsync";
 import {AboutPageAsync} from "./pages/AboutPage/AboutPageAsync";
 import {useTheme} from "./theme/useTheme";
+import {classNames} from "./hekpers/classNames/classNames";
 
 
 
 const App = () => {
     const {theme, toggleTheme} = useTheme();
-
+const bool = true;
     return (
-        <div className={`app ${theme}`}>
+        <div className={classNames("app", {}, [theme])}>
             <button onClick={toggleTheme}>TOGGLE</button>
             <Link to={""}>Главная</Link>
             <Link to={"/about"}>О сайте</Link>
