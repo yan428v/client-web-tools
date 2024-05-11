@@ -1,4 +1,4 @@
-@import "reset";
+@import "reset.css";
 @import "variables/global";
 @import "themes/normal";
 @import "themes/dark";
@@ -11,5 +11,4 @@
   color: var(--primary-color);
 
   min-height: 100vh;
-
 }

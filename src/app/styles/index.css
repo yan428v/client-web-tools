@@ -1,17 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-input,
-button,
-textarea,
-select {
-  margin: 0;
-  font: inherit;
-}
-
+@import "reset.css";
 :root {
   --font-famili-main: Consolas, "Times New Roman", Serif;
   --font-size-m: 16px;
