@@ -7,18 +7,25 @@
   --font-size-l: 32px;
   --font-line-l: 24px;
   --font-l: var(--font-size-l) / var(--font-line-l) var(--font-famili-main);
+  --navbar-height: 50px ;
 }
 
 :root {
   --bg-color: #e8e8ea;
+  --inverted-bg-color: #090949;
   --primary-color: #0232c2;
   --secondary-color: #0449e0;
+  --inverted-primary-color: #049604;
+  --invertd-secondary-color: #04ff04;
 }
 
 .app.dark {
-  --bg-color: #080849;
+  --bg-color: #090949;
+  --inverted-bg-color: #e8e8ea;
   --primary-color: #049604;
   --secondary-color: #04ff04;
+  --inverted-primary-color: #0232c2;
+  --inverted-secondary-color: #0452ff;
 }
 
 .app {
