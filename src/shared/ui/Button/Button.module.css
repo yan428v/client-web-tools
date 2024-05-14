@@ -1,0 +1,13 @@
+.Button {
+  cursor: pointer;
+}
+
+.clear {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+/*# sourceMappingURL=Button.module.css.map */
