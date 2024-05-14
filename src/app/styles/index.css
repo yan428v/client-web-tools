@@ -7,7 +7,9 @@
   --font-size-l: 32px;
   --font-line-l: 24px;
   --font-l: var(--font-size-l) / var(--font-line-l) var(--font-famili-main);
-  --navbar-height: 50px ;
+  --navbar-height: 50px;
+  --sidebar-width: 300px;
+  --sidebar-width-collapsed: 80px;
 }
 
 :root {
@@ -33,6 +35,15 @@
   background: var(--bg-color);
   color: var(--primary-color);
   min-height: 100vh;
+}
+
+.content-page {
+  display: flex;
+}
+
+.page-wrapper {
+  flex-grow: 1;
+  padding: 20px;
 }
 
 /*# sourceMappingURL=index.css.map */
