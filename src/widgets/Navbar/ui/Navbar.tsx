@@ -25,4 +25,3 @@ export const Navbar = ({className}: NavbarProps) => {
 };
 
 export default Navbar;
-;
