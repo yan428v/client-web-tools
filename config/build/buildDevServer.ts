@@ -6,5 +6,8 @@ export function buildDevServer(options: BuildOptions): DevServerConfiguration {
         port: options.port,
         open: false,
         historyApiFallback: true,
+        client: {
+            overlay: false, // Отоброжение стандартных модалок с ошибками вебпака
+        },
     };
 }
